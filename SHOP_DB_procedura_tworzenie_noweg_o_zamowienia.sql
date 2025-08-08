@@ -24,7 +24,7 @@ BEGIN
 		@TotalAmount DECIMAL = 0, -- Initialize TotalAmount
 		@Cnt INT = 1; -- Initialize Cnt
 
-	-- Count of various items bought
+	-- Amount of various items bought
 	SET @RndProductCnt = FLOOR(RAND() * (6 - 1 + 1) + 1);
 
 	-- Amount of each item bought (default 0)
